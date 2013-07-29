@@ -11,6 +11,19 @@
   <version>1.0-SNAPSHOT</version>
   <packaging>hpi</packaging>
 
+<distributionManagement>
+	<repository>
+		<id>maven.jenkins-ci.org</id>
+		<url>http://maven.jenkins-ci.org/content/repositories/releases/</url>
+	</repository>
+</distributionManagement>  
+  
+  <scm>
+    <connection>scm:git:ssh://git@github.com/jenkinsci/archived-artifact-url-viewer.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/jenkinsci/archived-artifact-url-viewer.git</developerConnection>
+    <url>https://github.com/jenkinsci/archived-artifact-url-viewer</url>
+  </scm>
+
   <!-- get every artifact through repo.jenkins-ci.org, which proxies all the artifacts that we need -->
   <repositories>
     <repository>
