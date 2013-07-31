@@ -10,7 +10,15 @@
   <artifactId>archived-artifact-url-viewer</artifactId>
   <version>1.1-SNAPSHOT</version>
   <packaging>hpi</packaging>
+  <name>Archived Artifact Url Viewer Plug-In</name>
+  <url>http://wiki.jenkins-ci.org/display/JENKINS/Archived+Artifact+Url+Viewer+Plug-In</url>
 
+	<developers>
+		<developer>
+			<id>vimil</id>
+			<name>Vimil Saju</name>
+		</developer>
+	</developers>
 <distributionManagement>
 	<repository>
 		<id>maven.jenkins-ci.org</id>
