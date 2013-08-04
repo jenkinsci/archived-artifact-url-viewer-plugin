@@ -11,7 +11,7 @@
   <version>1.2-SNAPSHOT</version>
   <packaging>hpi</packaging>
   <name>Archived Artifact Url Viewer Plug-In</name>
-  <url>http://wiki.jenkins-ci.org/display/JENKINS/Archived+Artifact+Url+Viewer+Plug-In</url>
+  <url>http://wiki.jenkins-ci.org/display/JENKINS/Archived+Artifact+Url+Viewer+PlugIn</url>
 
 	<developers>
 		<developer>
